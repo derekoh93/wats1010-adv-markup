@@ -1,1 +1,31 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+  display: inline;
+}
+a.active{
+  font-weight: bold;
+}
+#sidebar{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 250px;
+}
+.poem{
+  list-style-type: none;
+}
+.bio-photo{
+  width: 250px;
+  float: left;
+  text-align: center;
+  margin: 10px 20px 10px 10px;
+  line-height: 20px;
+}
+#content p{
+  width: 750px;
+}
+html{
+  background:pink;
+}
+
